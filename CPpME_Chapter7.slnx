@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../CppME_Chapter7_Example7.13/CppME_Chapter7_Example7.13.vcxproj" />
+  <Project Path="../CppME_Chapter7_Example7.15/CppME_Chapter7_Example7.15.vcxproj" />
+  <Project Path="../CppME_Chapter7_Example7.18/CppME_Chapter7_Example7.18.vcxproj" />
+  <Project Path="../CppME_Chapter7_EXample7.8/CppME_Chapter7_EXample7.8.vcxproj" />
+  <Project Path="../CppME_Chapter7_PassswordCheck/CppME_Chapter7_PassswordCheck.vcxproj" />
+  <Project Path="CPpME_Chapter7.vcxproj" />
+</Solution>
