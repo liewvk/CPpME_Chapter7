@@ -3,10 +3,10 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="../CppME_Chapter7_Example7.13/CppME_Chapter7_Example7.13.vcxproj" />
-  <Project Path="../CppME_Chapter7_Example7.15/CppME_Chapter7_Example7.15.vcxproj" />
-  <Project Path="../CppME_Chapter7_Example7.18/CppME_Chapter7_Example7.18.vcxproj" />
-  <Project Path="../CppME_Chapter7_EXample7.8/CppME_Chapter7_EXample7.8.vcxproj" />
-  <Project Path="../CppME_Chapter7_PassswordCheck/CppME_Chapter7_PassswordCheck.vcxproj" />
-  <Project Path="CPpME_Chapter7.vcxproj" />
+  <Project Path="CPpME_Chapter7.vcxproj" Id="ccce7a35-a93b-40f7-a75d-f589214b02af" />
+  <Project Path="CppME_Chapter7_Example7.13/CppME_Chapter7_Example7.13.vcxproj" Id="e38e0cc4-567f-44b7-82f4-bc7ebb076cdf" />
+  <Project Path="CppME_Chapter7_Example7.15/CppME_Chapter7_Example7.15.vcxproj" Id="f672736a-9f94-48b2-9dd3-8d01bafe053d" />
+  <Project Path="CppME_Chapter7_Example7.18/CppME_Chapter7_Example7.18.vcxproj" Id="153462a9-6fd0-4691-92cd-815c784f2e9b" />
+  <Project Path="CppME_Chapter7_EXample7.8/CppME_Chapter7_EXample7.8.vcxproj" Id="829fa8af-80ce-444d-8dee-b4e65439edc0" />
+  <Project Path="CppME_Chapter7_PassswordCheck/CppME_Chapter7_PassswordCheck.vcxproj" Id="f273a94d-a5ff-454e-ac12-7c7bf093c143" />
 </Solution>
