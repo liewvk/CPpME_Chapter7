@@ -1,47 +1,39 @@
 # C++ Programming Made Easy — Chapter 7
 
-This repository contains the Chapter 7 example project from **C++ Programming Made Easy**. It is a Visual Studio C++ console application configured for C++20.
+This repository contains the Chapter 7 examples from **C++ Programming Made Easy**. The projects are Visual Studio console applications written in C++20 and are intended for learning and experimentation.
 
-## Overview
+## What is included?
 
-The main project currently contains a minimal console program that demonstrates the standard C++ application entry point and writes a greeting to standard output:
+The main project currently contains a simple C++ console program that demonstrates the standard `main()` entry point and writes a greeting to the console:
 
 ```text
 Hello World!
 ```
 
-The repository also includes a Visual Studio solution configuration intended to group the main project with additional Chapter 7 example projects.
-
-## Repository contents
-
-| File | Description |
-| --- | --- |
-| `CPpME_Chapter7.cpp` | Source file containing `main()` and the current console output example. |
-| `CPpME_Chapter7.vcxproj` | Visual Studio C++ project configuration. |
-| `CPpME_Chapter7.vcxproj.filters` | Visual Studio Solution Explorer filter configuration. |
-| `CPpME_Chapter7.slnx` | Visual Studio solution configuration. |
-| `.gitignore` | Standard ignore rules for Visual Studio-generated files and build output. |
-| `.gitattributes` | Git settings for text normalization and merge behavior. |
+The repository also includes a Visual Studio solution configuration for organizing the Chapter 7 example projects.
 
 ## Requirements
 
 - Windows
-- Visual Studio with **Desktop development with C++** installed
-- A Windows 10 SDK or compatible Windows SDK
-- A compiler/toolset that supports the project configuration's C++20 standard
+- Visual Studio with the **Desktop development with C++** workload installed
+- A compatible Windows SDK
+- A compiler that supports C++20
 
-The project is configured for both **Win32** and **x64** platforms, with **Debug** and **Release** configurations.
+The project supports the following Visual Studio configurations:
 
-## Build and run in Visual Studio
+- **Debug** and **Release**
+- **Win32** and **x64**
+
+## Build and run
 
 1. Clone or download this repository.
-2. Open `CPpME_Chapter7.vcxproj` directly, or open `CPpME_Chapter7.slnx` when all referenced example projects are available.
-3. Select a configuration such as `Debug` and a platform such as `x64`.
-4. Build the project with **Build > Build Solution**.
-5. Run without the debugger with **Debug > Start Without Debugging** or press `Ctrl+F5`.
-6. Run with the debugger by pressing `F5`.
+2. Open `CPpME_Chapter7.vcxproj` in Visual Studio.
+   - Use `CPpME_Chapter7.slnx` if all referenced Chapter 7 projects are available.
+3. Select a configuration and platform, such as `Debug` and `x64`.
+4. Select **Build > Build Solution**.
+5. Run the program with **Debug > Start Without Debugging** or press `Ctrl+F5`.
 
-The program should display:
+The program should print:
 
 ```text
 Hello World!
@@ -49,17 +41,28 @@ Hello World!
 
 ## Build from the Developer Command Prompt
 
-After opening a Visual Studio Developer Command Prompt, build the project with MSBuild. For example:
+Open a Visual Studio Developer Command Prompt and run:
 
 ```bat
 msbuild CPpME_Chapter7.vcxproj /p:Configuration=Debug /p:Platform=x64
 ```
 
-The generated build output is placed in the usual Visual Studio output directories, which are excluded from version control by `.gitignore`.
+Build artifacts are generated in the standard Visual Studio output directories and are excluded from version control.
 
-## Solution references
+## Repository structure
 
-`CPpME_Chapter7.slnx` references several related Chapter 7 projects using paths outside this repository:
+| File | Purpose |
+| --- | --- |
+| `CPpME_Chapter7.cpp` | Main C++ source file and console entry point. |
+| `CPpME_Chapter7.vcxproj` | Visual Studio C++ project configuration. |
+| `CPpME_Chapter7.vcxproj.filters` | Visual Studio Solution Explorer filters. |
+| `CPpME_Chapter7.slnx` | Solution configuration for the Chapter 7 projects. |
+| `.gitignore` | Rules for excluding generated files and build output. |
+| `.gitattributes` | Git text and merge settings. |
+
+## Related example projects
+
+The solution references additional Chapter 7 projects that are expected to be located in neighboring directories:
 
 - `CppME_Chapter7_Example7.13`
 - `CppME_Chapter7_Example7.15`
@@ -67,15 +70,15 @@ The generated build output is placed in the usual Visual Studio output directori
 - `CppME_Chapter7_EXample7.8`
 - `CppME_Chapter7_PassswordCheck`
 
-To load the complete solution successfully, place those projects in the expected neighboring directories, or open `CPpME_Chapter7.vcxproj` independently when working only with the project in this repository.
+If these projects are not available locally, open `CPpME_Chapter7.vcxproj` directly instead of the solution file.
 
 ## Development notes
 
-- The source uses the standard `iostream` library.
-- The project is configured with the C++20 language standard.
-- Warnings are enabled at Visual Studio warning level 3.
-- Visual Studio user settings, intermediate files, binaries, and other generated artifacts should not be committed.
+- The project uses the standard C++ `iostream` library.
+- The language standard is set to C++20.
+- Visual Studio warning level 3 is enabled.
+- Do not commit Visual Studio user settings, intermediate files, binaries, or other generated artifacts.
 
 ## License
 
-No license is currently specified for this repository. Contact the repository owner before redistributing or using the code outside its intended educational context.
+No license is currently specified. Contact the repository owner before redistributing or using this code outside its intended educational context.
